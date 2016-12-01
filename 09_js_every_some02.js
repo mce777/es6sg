@@ -13,6 +13,6 @@ var birthdate = new field("10/10/2016");
 
 var fields = [username, password, birthdate];
 
-fields.every(function (field) {
+fields.every(function(field) {
 	return field.validate();
 })

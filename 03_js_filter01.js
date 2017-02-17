@@ -9,3 +9,5 @@ var users = [
 var filteredUsers = users.filter(function(user) {
 	return user.admin
 });
+
+console.log(filteredUsers);

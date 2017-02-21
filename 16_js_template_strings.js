@@ -8,4 +8,4 @@ function getDate() {
 	return `the year is ${year}`;
 }
 
-getDate();
+console.log(getDate());

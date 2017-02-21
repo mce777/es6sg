@@ -7,7 +7,9 @@ var users = [
 ];
 
 var filteredUsers = users.filter(function(user) {
-	return user.admin
+	// return user.admin
+	// return user.id === 3
+	return user.admin && user.id > 3
 });
 
 console.log(filteredUsers);

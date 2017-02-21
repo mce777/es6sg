@@ -11,5 +11,14 @@ function pluck(paintArray, property) {
 	return paintBuckets;
 }
 
+// this works too :)
+// function pluck(paintArray, property) {
+//
+// 	return paintArray.map( function(paint){
+// 		return paint[property];
+// 	} );
+//
+// }
+
 // test
 console.log(pluck(paints, 'color'));

@@ -6,7 +6,7 @@ var desks = [
 	{ type: 'standing' }
 ];
 
-var deskTypes = desks.reduce(function( prev, desk) {
+var deskTypes = desks.reduce(function(prev, desk) {
 
 	return {
 		sitting : ( desk.type === 'sitting' )  ? ++prev.sitting  : prev.sitting,

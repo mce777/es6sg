@@ -10,4 +10,6 @@ function validateShoppingList(...items) {
 }
 
 // the following returns the list, + milk because we added that above
-validateShoppingList('oranges', 'bread', 'eggs');
+console.log(
+	validateShoppingList('oranges', 'bread', 'eggs')
+);

@@ -1,4 +1,4 @@
-// here, setting method default to 'GET'
+// default function arguments: setting default to 'GET'
 function makeRequest(url, method = 'GET') {
 	return method;
 }

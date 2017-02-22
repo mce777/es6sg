@@ -19,7 +19,7 @@ const inventory = [
 
 const bookshop = createBookShop(inventory);
 
-bookshop.inventoryValue();		// 25
-bookshop.priceForTitle('Harry Potter');		//10
+bookshop.inventoryValue();  // 25
+bookshop.priceForTitle('Harry Potter'); //10
 
 // you're saving a few characters here

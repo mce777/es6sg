@@ -1,4 +1,4 @@
-// "template strings" (aka "template literals")
+// ES6 "template strings" (aka "template literals")
 // a nicer way of joining together javascript variables into a string
 
 function getDate() {

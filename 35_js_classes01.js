@@ -1,16 +1,17 @@
 class Car {
-	// initialization here
+	// initialization, stuff that's run when we call the NEW keyword
+	// note also the destructuring
 	constructor({ title }) {
 		this.title = title;
 	}
-
+	// note object literal syntax
 	drive() {
 		return 'vroom';
 	}
 }
 
 class Toyota extends Car {
-	// no destructuring when super is used
+	// NO destructuring when super() is used!
 	constructor(options) {
 		super(options); // calling Car.constructor() here
 		this.color = options.color;
@@ -27,4 +28,3 @@ toyota.honk();
 toyota;
 '------';
 toyota.drive();
-

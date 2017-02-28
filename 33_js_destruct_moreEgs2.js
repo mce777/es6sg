@@ -7,3 +7,5 @@ const classes = [
 const classesAsObject = classes.map(([ subject, time, teacher]) => {
 	return { subject, time, teacher };
 });
+
+console.log(classesAsObject);

@@ -1,4 +1,5 @@
 // nice example
+// symbol iterator is a tool that teaches objects how to respond to the 'for of' loop
 class Comment {
   constructor(content, children) {
     this.content = content;

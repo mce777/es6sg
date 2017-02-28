@@ -3,6 +3,7 @@ const Google = {
 };
 
 // first, find 'locations' property (Google.locations),
-// then first element, which has to be called 'locations'
-const { locations: [ locations ] } = Google;
-locations; // Mountain View
+// then first element, which can be called anything
+const { locations: [ firstItem ] } = Google;
+
+console.log(firstItem);

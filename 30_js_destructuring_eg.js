@@ -17,5 +17,5 @@ const user1 = {
 // simple call here
 signup(user1);
 
-// with the old way, you had to do it like this (and in the exact order)
+// with the old way, you would have to do it like this (and in this exact order)
 // signup('myname', 'mypassword', 'myemail@example.com', '1/1/1990', 'New York');

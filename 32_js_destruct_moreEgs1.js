@@ -3,7 +3,7 @@ const profile = {
 	department: 'Engineering'
 };
 
-function isEngineer(profile) {
-	const { title, department } = profile;
+// via destructuring we are getting these two properties
+function isEngineer({ title, department }) {
 	return title === 'Engineer' && department === 'Engineering';
 }

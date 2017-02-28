@@ -19,4 +19,6 @@ for (let name of TeamIterator(engineeringTeam)) {
 	names.push(name);
 }
 
-names;
+console.log(
+	names
+);

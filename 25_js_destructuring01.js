@@ -1,18 +1,18 @@
-var expense = {
+const expense = {
 	type: 'Business',
 	amount: '$45 USD'
 };
 
-// ES5
+// the ES5 way
 // var type = expense.type;
 // var amount = expense.amount;
 
-// ES6
+// the ES6 way
 const { type } = expense;
 const { amount } = expense;
 
-// or just like this
+// or even simpler, just like this
 // const { type, amount } = expense;
 
-type;
-amount;
+console.log(type);
+console.log(amount);

@@ -1,4 +1,4 @@
-// arrays
+// destructuring arrays []
 
 const companies = [
 	'Google',
@@ -8,5 +8,10 @@ const companies = [
 
 const [ name, ...rest ] = companies;
 
-name; // Google
-rest; // ["Apple","Uber"]
+console.log(
+	name // Google
+);
+
+console.log(
+	rest // ["Apple","Uber"]
+);

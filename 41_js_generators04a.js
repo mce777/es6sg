@@ -16,10 +16,12 @@ function* TeamIterator(team) {
 	yield team.lead;
 	yield team.manager;
 	yield team.engineer;
-	// so the for/of loop can if effect use 2 generators!
+
+	// so the for/of loop can use 2 generators!
 	const testingTeamGenerator = TestingTeamIterator(team.testingTeam);
-	// through yield*, the iterator falls into the next iterator
-	// 'generator delegation'
+
+	// through yield*, the iterator 'falls' into the next iterator
+	// this is called 'generator delegation'
 	yield* testingTeamGenerator;
 }
 
@@ -33,6 +35,8 @@ for (let name of TeamIterator(engineeringTeam)) {
 	names.push(name);
 }
 
-names;
+console.log(
+	names
+);
 
 

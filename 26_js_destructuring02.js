@@ -1,4 +1,4 @@
-var savedFile = {
+const savedFile = {
 	extension: '.jpg',
 	name: 'repost',
 	size: 14040
@@ -10,7 +10,9 @@ var savedFile = {
 // }
 
 function fileSummary({ name, extension, size }) {
-	return `The file ${name}${extension} is ${size} big`;
+	return `The file ${name} '${extension}' is ${size} big`;
 }
 
-fileSummary(savedFile);
+console.log(
+	fileSummary(savedFile)
+);

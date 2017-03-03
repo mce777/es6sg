@@ -27,4 +27,8 @@ const values = [];
 for (let value of tree) {
   values.push(value);
 }
-values;
+
+console.log(
+	values
+);
+

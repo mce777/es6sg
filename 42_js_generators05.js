@@ -1,11 +1,11 @@
-// nice example
+// remember the tree diagram
 // symbol iterator is a tool that teaches objects how to respond to the 'for of' loop
 class Comment {
   constructor(content, children) {
     this.content = content;
     this.children = children;
   }
-  //note: array helpers(map, etc) don't work in gens
+  //note: array helpers(map, etc) don't work in generators
   //note this new syntax
   *[Symbol.iterator]() {
     yield this.content;
@@ -27,4 +27,5 @@ const values = [];
 for (let value of tree) {
   values.push(value);
 }
-values;
+
+console.log(values);

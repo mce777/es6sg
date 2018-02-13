@@ -28,4 +28,7 @@ for (let value of tree) {
   values.push(value);
 }
 
-console.log(values);
+console.log(
+	values
+);
+
